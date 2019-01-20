@@ -91,19 +91,24 @@ footer p{
 	padding-right: 30px;
 }
 .intro-p {
-   padding-left: 15px;
-   padding-right: 15px;
+   /*padding-left: 15px;
+   padding-right: 15px;*/
    font-size: 1.2em; 
-   margin:20px 20px 30px 20px;
+   margin:20px 0 30px 0;
 
 
 }
 
+.column {
+	width: 90%;
+	padding: 30px 0;
+	margin: 0 auto;
+}
+
 .profile-img {
   border-radius: 10px;   
-  margin: 45px 80px 0;   /*this is a profile img im trying to fix and i don't know whether i am doing it right*/
-  width: 240px;
-   
+  margin: 20px 0 20px 55px;   /*this is a profile img im trying to fix and i don't know whether i am doing it right*/
+  width: 70%;
 }
 
 .last-p{
@@ -155,6 +160,14 @@ footer p{
 	font-family: 'Acme', sans-serif;
 }
 
+.section-class{
+	text-align: center;
+
+}
+
+.skills-links{
+	color:#008080;
+}
 
 /* ================================= 
   ID Selectors
@@ -224,6 +237,11 @@ footer p{
 	.six {
 		width: 50%;
 	}
+
+	.column {
+	width: 100%;
+	
+}
 
 	.profile-img {
 		  float: right;
@@ -364,12 +382,18 @@ footer p{
 	.six{
 		width:33%;
 	}
+
+	.column {
+	width: 90%;
+	margin:0 auto;
+	
+}
 	.profile-img {
 		  float: right;
 		  border-radius: 10px; 
 		  
-		  width: 320px;
-		  height: 180px;
+		  width:400px;
+		  height: 260px;
 		  margin-top: 10px;
 		  margin-left: 40px;
 		  margin-right: 50px;
@@ -378,10 +402,10 @@ footer p{
 		    
 	}
 	 .intro-p{
-	 	width:50%;
+	 	width:40%;
 	 	display: inline-block;
-	 	font-size: 1.3rem;
-	 	margin-left: 20px;
+	 	font-size: 1.4rem;
+	 	margin-left: 40px;
 	 	margin-top: 10px;
 	 	margin-right: 10px;
 	 	text-align: initial;
