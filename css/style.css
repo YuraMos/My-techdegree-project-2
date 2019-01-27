@@ -299,9 +299,7 @@ footer p{
 
 @media (min-width: 1024px) {
 
-	body {
-		padding-top: 130px;
-	}
+	
 
 	.container{
 		width:90%;
@@ -311,12 +309,11 @@ footer p{
 
 
 	.main-header {
-		position: fixed;
+		
 		background: #fff;
 		box-shadow: 0 1px 4px rgba(0,0,0,.4);
 		width: 100%;
-		top: 0;
-		z-index: 1000;
+		
 	}
     .title,
     .col{
